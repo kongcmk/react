@@ -19,24 +19,24 @@ const User = () => {
 
     return (
         <>
-        <h2 className="text-2xl font-bold py-1">
+        <h2 className="py-1 text-2xl font-bold">
             User list
         </h2>
         <table 
-            className="w-5/6 flex-col justify-center items-center text-center h-12 border-separate border-spacing-1 border border-slate-500">
+            className="flex-col items-center justify-center w-5/6 h-12 mt-5 mb-10 text-center border border-separate border-spacing-1 border-slate-500">
         <thead>
           <tr>
-            <th className="border border-slate-600 h-12">Name</th>
-            <th className="border border-slate-600 h-12">Lastname</th>
-            <th className="border border-slate-600 h-12">Position</th>
+            <th className="h-12 border border-slate-600">Name</th>
+            <th className="h-12 border border-slate-600">Lastname</th>
+            <th className="h-12 border border-slate-600">Position</th>
           </tr>
         </thead>
         <tbody>
           {members.map((member) => (
             <tr key={member.id}>
-              <td className="border border-slate-700 h-10">{member.name}</td>
-              <td className="border border-slate-700 h-10">{member.lastname}</td>
-              <td className="border border-slate-700 h-10">{member.position}</td>
+              <td className="h-10 border border-slate-700">{member.name}</td>
+              <td className="h-10 border border-slate-700">{member.lastname}</td>
+              <td className="h-10 border border-slate-700">{member.position}</td>
             </tr>
           ))}
         </tbody>

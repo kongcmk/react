@@ -10,7 +10,7 @@ import './index.css'
 
 //component
 import App from './App.jsx'
-import About from './Owner.jsx'
+import Owner from './Owner.jsx'
 
 
 const router = createBrowserRouter([
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/owner',
-    element: <About />
+    element: <Owner />
   },
 ]);
 

@@ -1,15 +1,13 @@
 const Navbar = () => {
-
     return (
-        <nav className="w-full flex justify-end space-x-4 bg-white mr-4 px-8 py-2">
+        <nav className="flex justify-end w-full px-8 py-2 mr-4 space-x-4 bg-white">
             {[
                 ['Home', '/'],
                 ['Owner', '/owner'],
             ].map(([title, url]) => (
-                <a href={url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">{title}</a>
+                <a href={url} className="px-3 py-2 font-medium rounded-lg text-slate-700 hover:bg-slate-100 hover:text-slate-900">{title}</a>
             ))}
         </nav>
-
     )
 }
 

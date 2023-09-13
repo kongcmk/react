@@ -11,9 +11,9 @@ function App() {
 
   return (
     <Layout>
-      <div className="w-screen h-64 flex flex-col justify-center items-center text-center" >
+      <div className="flex flex-col items-center justify-center w-screen h-64 text-center" >
         <h1 
-          className="text-3xl font-bold py-2">
+          className="py-2 text-3xl font-bold">
           Generation Thailand
         </h1>
         <p>Lorem ipsum dolor sit amet.</p>
@@ -21,7 +21,7 @@ function App() {
       
         { section === "" && (
           
-          <h3 className='text-xl font-bold py-2 text-center'>
+          <h3 className='py-2 text-xl font-bold text-center'>
             Please select button.
             </h3>
         )
@@ -29,7 +29,7 @@ function App() {
 
         { section === "USER" && (
           
-          <h3 className='text-xl font-bold py-2 text-center'>
+          <h3 className='py-2 text-xl font-bold text-center'>
            HOME - USER SECTOR
             </h3>
         )
@@ -37,7 +37,7 @@ function App() {
         
         { section === "ADMIN" && (
           
-          <h3 className='text-xl font-bold py-2 text-center'>
+          <h3 className='py-2 text-xl font-bold text-center'>
             HOME - ADMIN SECTOR
             </h3>
         )
@@ -57,7 +57,7 @@ function App() {
       </div>
 
 
-      <div className='w-screen flex flex-col justify-center items-center gap-y-4'>
+      <div className='flex flex-col items-center justify-center w-screen gap-y-4'>
       {
         section === "USER" && ( 
           <User className="self-auto"/>

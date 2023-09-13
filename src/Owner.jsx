@@ -1,7 +1,7 @@
 import Layout from "./Layout.jsx"
 
 
-const About = () => {
+const Owner = () => {
 
 return (
         <Layout>
@@ -28,4 +28,4 @@ return (
 };
 
 
-export default About;
+export default Owner;
