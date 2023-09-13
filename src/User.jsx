@@ -26,17 +26,17 @@ const User = () => {
             className="flex-col items-center justify-center w-5/6 h-12 mt-5 mb-10 text-center border border-separate border-spacing-1 border-slate-500">
         <thead>
           <tr>
-            <th className="h-12 border border-slate-600">Name</th>
-            <th className="h-12 border border-slate-600">Lastname</th>
-            <th className="h-12 border border-slate-600">Position</th>
+            <th className="w-2/6 h-12 border border-slate-600">Name</th>
+            <th className="w-2/6 h-12 border border-slate-600">Lastname</th>
+            <th className="w-2/6 h-12 border border-slate-600">Position</th>
           </tr>
         </thead>
         <tbody>
           {members.map((member) => (
             <tr key={member.id}>
-              <td className="h-10 border border-slate-700">{member.name}</td>
-              <td className="h-10 border border-slate-700">{member.lastname}</td>
-              <td className="h-10 border border-slate-700">{member.position}</td>
+              <td className="w-2/6 h-10 border border-slate-700">{member.name}</td>
+              <td className="w-2/6 h-10 border border-slate-700">{member.lastname}</td>
+              <td className="w-2/6 h-10 border border-slate-700">{member.position}</td>
             </tr>
           ))}
         </tbody>

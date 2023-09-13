@@ -1,17 +1,17 @@
-// import './App.css'
+import { useState } from 'react'
 
 //import component
 import Layout from './Layout.jsx'
 import User from './User.jsx'
 import Manager from './Admin.jsx'
-import { useState } from 'react'
+
 
 function App() {
   const [section, setSection] = useState("");
 
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center w-screen h-64 text-center" >
+      <div className="flex flex-col items-center justify-center h-64 text-center" >
         <h1 
           className="py-2 text-3xl font-bold">
           Generation Thailand
@@ -57,7 +57,7 @@ function App() {
       </div>
 
 
-      <div className='flex flex-col items-center justify-center w-screen gap-y-4'>
+      <div className='flex flex-col items-center justify-center gap-y-4'>
       {
         section === "USER" && ( 
           <User className="self-auto"/>

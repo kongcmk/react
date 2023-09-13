@@ -1,3 +1,4 @@
+
 import Layout from "./Layout.jsx"
 
 
@@ -5,14 +6,14 @@ const Owner = () => {
 
 return (
         <Layout>
-            <div className="flex flex-col items-center justify-center w-screen h-64 text-center" >
+            <div className="flex flex-col items-center justify-center h-64 text-center" >
                 <h1 
                     className="py-2 text-3xl font-bold">
                     Chaimongkol Sawat
                 </h1>
                 <p>chaimongkol (Kong/ก้อง)</p>
             </div>
-            <div className="flex flex-col items-center justify-center w-screen text-center">
+            <div className="flex flex-col items-center justify-center text-center">
                 <div className="w-64 h-64 overflow-hidden rounded-full">
                     <img
                         className="object-cover w-full h-full mx-auto"

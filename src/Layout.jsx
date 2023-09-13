@@ -4,7 +4,7 @@ import Navbar from "./Nav.jsx"
 const Layout = ({children}) => {
 
     return (
-        <div className="w-screen">
+        <div className="">
             <Navbar />
             {children}
         </div>
