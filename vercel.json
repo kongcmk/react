@@ -1,13 +1,8 @@
-{
-  "cleanUrls": true,
+
+{ 
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/"
-    },
-    {
-      "source": "/owner",
-      "destination": "/owner.html"
+    { "source": "/(.*)", 
+    "destination": "/" 
     }
   ]
 }
