@@ -1,13 +1,7 @@
-{
-    "route": [
-        {
-            "src": "/",
-            "dest": "/"
-          },
-          {
-            "src": "/owner",
-            "dest": "owner"
-          }
-    ]
 
+{
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/owner", "dest": "/owner" }
+  ]
 }
