@@ -9,9 +9,5 @@
       "source": "/owner",
       "destination": "/owner.html"
     }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/" },
-    { "src": "/owner", "dest": "/owner.jsx" }
   ]
 }
