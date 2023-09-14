@@ -11,7 +11,7 @@ return (
                     className="py-2 text-3xl font-bold">
                     Chaimongkol Sawat
                 </h1>
-                <p>chaimongkol (Kong/ก้อง)</p>
+                <p>06_chaimongkol(Kong/ก้อง) Group-P</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
                 <div className="w-64 h-64 overflow-hidden rounded-full">
